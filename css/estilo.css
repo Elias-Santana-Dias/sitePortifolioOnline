@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: tahoma;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    border: 20px solid #0362DD;
+}
+
+.fundo-bege{
+    background-color: #FFE3D0;
+    padding: 20px;
+}
+
+.fundo-bege h1{
+    color: #0362DD;
+    font-size:60px;
+    text-align: center;
+}
+
+.fundo-bege p{
+    color:#0362DD;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+}
+
+/*Contato*/
+
+.contato{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.contato a{
+    color: #0362DD;
+    transition: .25s ease-in-out;
+}
+
+.contato a::after{
+    content: '';
+    background-color: currentColor;
+    display: block;
+    height: 4px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+.contato a:hover{
+    color:blueviolet;
+}
+
+/*Foto de perfil*/
+
+.foto-container{
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.foto-container img{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+/*Minha historia*/
+
+.historia h2{
+    color: #0362DD;
+    text-align: center;
+    font-size: 35px;
+}
+
+.historia p{
+    color: #0362DD;
+    text-align: justify;
+}
+
+.historia{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Redes Sociais*/
+
+.redes-sociais{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0362DD;
+    padding: 50px 0;
+}
+
+.redes-sociais a{
+    padding: 5px 0;
+    margin: 10px 0;
+    color: white;
+}
+
+/*Experiencia e Habilidades*/
+
+.habilidades-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+.experiencia, .habilidades{
+    width: 50%;
+    height: 700px;
+    padding:50px 15px;
+    min-width: 400px;
+    flex-grow: 1;
+}
+
+.experiencia{
+    background-color: #0362DD;
+    border: 1px solid #FFE3D0;
+    color:white;
+    text-align: center;
+}
+
+.experiencia span{
+    font-weight: bold;
+}
+
+.experiencia h2, .habilidades h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.experiencia h3, .habilidades h3{
+    font-size: 30px;
+}
+
+.habilidades{
+    background-color: #FFE3D0;
+    color: #0362DD;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.habilidades-container .box{
+    margin-bottom: 20px;
+}
+
+/*Reflexões*/
+
+.reflections{
+    background-color: #0362DD;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.reflections h2{
+    font-size: 35px;
+    padding: 20px;
+}
+
+.reflections .box p{
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.reflections .box{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.reflections .box a{
+    font-weight: bold;
+    color: white;
+}
+
+/* Fromulario de contato */
+
+#contato{
+    background-color: #FFE3D0;
+    text-align: center;
+    color: #0362DD;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+#contato h2{
+    font-size: 30px;
+}
+
+#contato h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 50;
+}
+
+.input-mestre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-field{
+    flex-grow: 1;
+}
+
+form{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=email], textarea{
+    height: 50px;
+    background-color: #0362DD;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 100%;
+    padding: 20px 15px;
+    text-align: left;
+    max-width: 100%;
+    height: 200px;
+    resize: none;
+    overflow: auto;
+}
+
+form p{
+    margin-bottom: 7px;
+}
+
+form .btn{
+    background-color: #0362DD;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#contato .box{
+    margin: 30px;
+    line-height: 2;
+    font-size: 22px;
+}
+
+#contato .box h2{
+    font-size:45px ;
+}
+
+.redes-sociais-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #0362DD;
+    width: 100%;
+}
+
+.redes-sociais-icons img{
+    width: 25px;
+    height: 25px;
+    margin:10px;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    background-color: #FFE3D0;
+    color: #0362DD;
+}
+
+footer .direitos{
+    height: 100px;
+    line-height: 100px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:768px){
+    input[type=text]{
+        width: calc(100% - 10px);
+    }
+    input[type=email]{
+        width: 100%;
+    }
+
+    .experiencia, .habilidades{
+        height: auto;
+    }
+}
